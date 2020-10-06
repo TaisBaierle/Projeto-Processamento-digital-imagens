@@ -278,21 +278,33 @@ public class JF_Principal extends javax.swing.JFrame {
 
         jMenu3.setText("Segmentação de imagens");
 
+        filtroGauss.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_G, java.awt.event.InputEvent.CTRL_MASK));
+        filtroGauss.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/filtroGauss.png"))); // NOI18N
         filtroGauss.setText("Filtro Gauss");
         jMenu3.add(filtroGauss);
 
+        filtroMediana.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_M, java.awt.event.InputEvent.CTRL_MASK));
+        filtroMediana.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/filtro.png"))); // NOI18N
         filtroMediana.setText("Filtro Mediana");
         jMenu3.add(filtroMediana);
 
+        filtroSobel.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_S, java.awt.event.InputEvent.CTRL_MASK));
+        filtroSobel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/filtrosSobel.png"))); // NOI18N
         filtroSobel.setText("Filtro Sobel");
         jMenu3.add(filtroSobel);
 
+        brilho.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_B, java.awt.event.InputEvent.CTRL_MASK));
+        brilho.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/brilho.png"))); // NOI18N
         brilho.setText("Brilho");
         jMenu3.add(brilho);
 
+        contraste.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_C, java.awt.event.InputEvent.CTRL_MASK));
+        contraste.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/contraste.png"))); // NOI18N
         contraste.setText("Contraste");
         jMenu3.add(contraste);
 
+        negativo.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_N, java.awt.event.InputEvent.CTRL_MASK));
+        negativo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/sinal-negativo.png"))); // NOI18N
         negativo.setText("Negativo");
         jMenu3.add(negativo);
 
